@@ -1,0 +1,55 @@
+/* Custom styles for CodeQuest Services */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #ffc107;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  #hero {
+    background: linear-gradient(135deg, var(--primary-color), #0056b3);
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .aws-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+  }
+  
+  #pricing .card.border-primary {
+    border-width: 2px;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    .display-4 {
+      font-size: 2.5rem;
+    }
+  }
